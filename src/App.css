@@ -1,5 +1,5 @@
 body {
-  /* background-image: url("./assets/background.svg"); */
+  background-image: url("./assets/background.svg");
   background-repeat: no-repeat;
 }
 #root {
@@ -62,11 +62,8 @@ body {
 .circle {
   width: 320px;
   height: 285px;
-  /* border: 2px solid black; */
   border-radius: 50%;
   margin-top: -69px;
-  /* background-color: skyblue; */
-  /* position: absolute; */
   z-index: 1;
   overflow: hidden;
   background: url("./assets/flower.png");
@@ -80,7 +77,6 @@ body {
 .tapWaterTop {
   width: 321px;
   height: 45px;
-  /* background-color: skyblue; */
   position: relative;
   margin-top: -50px;
   border-radius: 50%;
@@ -88,7 +84,6 @@ body {
   background-color: rgba(173, 216, 230, 0.5);
 }
 .fish {
-  /* background-image: url("./assets/fish.png"); */
   z-index: 5;
   width: 50px;
   margin-left: -130px;
@@ -96,14 +91,12 @@ body {
 .tapWater {
   width: 320px;
   height: 300px;
-  /* background-color: rgb(157, 207, 226); */
   background-color: rgba(173, 216, 230, 0.5);
   position: relative;
   margin-top: -21px;
   z-index: 1;
 }
 .waterLevel {
-  /* margin-top: 50px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -113,14 +106,12 @@ body {
 
 .waterPourWay {
   width: 30px;
-  /* height: 100px; */
   background-color: purple;
   margin-left: -68px;
 }
 .cap {
   width: 220px;
   height: 75px;
-  /* border: 2px solid; */
   border-radius: 50%;
   background-color: white;
   z-index: 2;
@@ -133,7 +124,6 @@ body {
 .capCircle {
   width: 200px;
   height: 65px;
-  /* border: 2px solid; */
   border-radius: 50%;
   background: linear-gradient(to top, rgba(255, 255, 255, 0.5) 50%, white 50%);
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -154,7 +144,6 @@ body {
 .pipeTop {
   width: 300px;
   height: 40px;
-  /* border: 2px solid black; */
   border-radius: 50px 50px 0px 0px;
   background-color: gray;
   background: linear-gradient(45deg, #e6e6e6, #f9f9f9);
@@ -178,7 +167,6 @@ body {
 .waterPour {
   width: 30px;
   height: 310px;
-  /* border: 1px dashed skyblue; */
   margin-left: 250px;
   overflow: hidden;
   border-radius: 0px 0px 20px 20px;
@@ -196,8 +184,6 @@ body {
 .pipe {
   width: 40px;
   height: 450px;
-  /* border: 2px solid; */
-  /* background-color: gray; */
   margin-top: -125px;
   align-items: center;
   justify-content: center;

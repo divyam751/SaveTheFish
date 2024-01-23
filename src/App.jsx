@@ -26,7 +26,7 @@ function App() {
   return (
     <div>
       <div style={{ display: "flex", paddingLeft: 40 }}>
-        <h1 style={{ color: "" }}>Save the fish</h1>
+        <h1 style={{ color: "" }}>Save the Fish</h1>
 
         <img src={fish} alt="" style={{ width: 100, paddingBottom: 100 }} />
       </div>
