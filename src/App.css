@@ -1,0 +1,233 @@
+body {
+  /* background-image: url("./assets/background.svg"); */
+  background-repeat: no-repeat;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* FishBowl */
+.fishbowlComp {
+  margin-left: -300px;
+  margin-top: 100px;
+}
+.fishbowl {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 320px;
+  height: 285px;
+  /* border: 2px solid black; */
+  border-radius: 50%;
+  margin-top: -69px;
+  /* background-color: skyblue; */
+  /* position: absolute; */
+  z-index: 1;
+  overflow: hidden;
+  background: url("./assets/flower.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.tapWaterTop {
+  width: 321px;
+  height: 45px;
+  /* background-color: skyblue; */
+  position: relative;
+  margin-top: -50px;
+  border-radius: 50%;
+  z-index: 2;
+  background-color: rgba(173, 216, 230, 0.5);
+}
+.fish {
+  /* background-image: url("./assets/fish.png"); */
+  z-index: 5;
+  width: 50px;
+  margin-left: -130px;
+}
+.tapWater {
+  width: 320px;
+  height: 300px;
+  /* background-color: rgb(157, 207, 226); */
+  background-color: rgba(173, 216, 230, 0.5);
+  position: relative;
+  margin-top: -21px;
+  z-index: 1;
+}
+.waterLevel {
+  /* margin-top: 50px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: margin-top 1s ease;
+}
+
+.waterPourWay {
+  width: 30px;
+  /* height: 100px; */
+  background-color: purple;
+  margin-left: -68px;
+}
+.cap {
+  width: 220px;
+  height: 75px;
+  /* border: 2px solid; */
+  border-radius: 50%;
+  background-color: white;
+  z-index: 2;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.5) 50%, white 50%);
+}
+.capCircle {
+  width: 200px;
+  height: 65px;
+  /* border: 2px solid; */
+  border-radius: 50%;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.5) 50%, white 50%);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.water > img {
+  width: 400px;
+  margin-top: -180px;
+  margin-left: 200px;
+}
+.flower {
+  width: 200px;
+  margin-top: -180px;
+  margin-left: 200px;
+  z-index: 2;
+}
+
+/* Water Pipe */
+.pipeTop {
+  width: 300px;
+  height: 40px;
+  /* border: 2px solid black; */
+  border-radius: 50px 50px 0px 0px;
+  background-color: gray;
+  background: linear-gradient(45deg, #e6e6e6, #f9f9f9);
+  border: 1px solid #ccc;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.pipeTopTap {
+  width: 60px;
+  height: 20px;
+  background-color: green;
+  margin-left: 235px;
+  border-radius: 0px 0px 20px 20px;
+  background: linear-gradient(45deg, #e6e6e6, #f9f9f9);
+  border: 1px solid #ccc;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.waterPour {
+  width: 30px;
+  height: 310px;
+  /* border: 1px dashed skyblue; */
+  margin-left: 250px;
+  overflow: hidden;
+  border-radius: 0px 0px 20px 20px;
+  position: absolute;
+  z-index: 6;
+}
+.waterDrops {
+  width: 30px;
+  height: 100px;
+  background-color: rgba(173, 216, 230, 0.5);
+  margin-top: -100px;
+  border-radius: 20px 20px 20px 20px;
+  transition: margin-top 1s ease;
+}
+.pipe {
+  width: 40px;
+  height: 450px;
+  /* border: 2px solid; */
+  /* background-color: gray; */
+  margin-top: -125px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px 10px 0px 0px;
+  background: linear-gradient(45deg, #e6e6e6, #f9f9f9);
+  border: 1px solid #ccc;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.waterButton {
+  width: 60px;
+  height: 60px;
+  background-color: skyblue;
+  border-radius: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  rotate: 20deg;
+  transition: transform 1s ease-in-out;
+  border: 2px solid;
+}
+.waterButton.rotate {
+  transform: rotate(360deg);
+}
+.BlueDot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
